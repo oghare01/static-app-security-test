@@ -45,6 +45,7 @@ This document outlines the process of integrating GitHub, Jenkins, and SonarQube
    sudo systemctl enable jenkins
    sudo systemctl status jenkins
    ```
+5. Access jenkins at http://jenkins-vm-ip:8080
 
 ### Step 2: Install SonarQube
 1.  SSH into your SonarQube VM instance.
