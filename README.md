@@ -23,6 +23,8 @@ This document outlines the process of integrating GitHub, Jenkins, and SonarQube
 - [ ] Access to GitHub repository containing the codebase,and create a [webhook](https://docs.github.com/en/webhooks/using-webhooks/creating-webhooks) to subscribe to specific events that occur on your GitHub repo.
 .
 
+![VM instances](Architecture.png)
+
 ### Step 1: Install Jenkins
 
 1. SSH into your Jenkins VM instance.
