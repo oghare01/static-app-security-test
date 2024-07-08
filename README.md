@@ -18,7 +18,8 @@ This document outlines the process of integrating GitHub, Jenkins, and SonarQube
 
 ### Pre-requisites
 
-- [ ] Two VM instances in Google Cloud Platform (GCP) with Debian 11/ Ubuntu image.
+- [ ] A VM instance in Google Cloud Platform (GCP) with Debian 11/ Ubuntu image.
+- [ ] Install docker on the VM
 - [ ] Access to GitHub repository containing the codebase,and create a [webhook](https://docs.github.com/en/webhooks/using-webhooks/creating-webhooks) to subscribe to specific events that occur on your GitHub repo.
 .
 
