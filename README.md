@@ -97,8 +97,9 @@ Now that you have your token, you can use it in Jenkins for authentication when 
     
 - Configure Jenkins to connect to your GitHub repository.
    - create a new pipeline project, click on "New Item" on the Jenkins home page and select "Pipeline". Give your project a name and click "OK".
-   - In the pipeline configuration page, scroll down to the "Pipeline" section and select "Pipeline script from SCM" as the definition. Choose "Git" as the SCM and enter the URL 
-     of your GitHub repository. You can also specify the branch to use for the pipeline.
+   - In the pipeline configuration page, scroll down to the "Pipeline" section and select "Pipeline script from SCM" as the definition. Choose "Git" as the SCM and enter the URL f your GitHub repository. You can also specify the branch to use for the pipeline.
+     
+     ![](connect-repo.png)
    - Save the pipeline
      
      
@@ -127,7 +128,7 @@ Now that you have your token, you can use it in Jenkins for authentication when 
 ```
 
 2. Commit and push the Jenkinsfile to your GitHub repository.
-3. Ensure the github hook trigger checkbox in jenkins is ticked.
+3. Ensure the github hook trigger checkbox in jenkins is ticked , this ensures that any change in your github repo will automatically trigger a  build in Jenkins.
    ![](checkbox.png)
 
 ### Usage
