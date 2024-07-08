@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines the process of integrating GitHub, Jenkins, and SonarQube to automate code scanning and generate reports for code quality and security vulnerabilities. The Damn Vulnerable Web Application (DVWA) will be our sample application for scanning. 
+This document outlines the process of integrating GitHub, Jenkins, and SonarQube to automate code scanning and generate reports for code quality and security vulnerabilities. The Damn Vulnerable Web Application (DVWA) repo will be the sample application codebase for scanning. 
 
 ## Architecture
 
@@ -18,7 +18,7 @@ This document outlines the process of integrating GitHub, Jenkins, and SonarQube
 
 ### Pre-requisites
 
-- [ ] A VM instance in Google Cloud Platform (GCP) with Debian 11/ Ubuntu image.
+- [ ] 2 VM instances in Google Cloud Platform (GCP) with Debian 11/ Ubuntu image (one for jenkins, the other for sonarqube).
 - [ ] Install docker on the VM
 - [ ] Access to GitHub repository containing the codebase,and create a [webhook](https://docs.github.com/en/webhooks/using-webhooks/creating-webhooks) to subscribe to specific events that occur on your GitHub repo.
 .
