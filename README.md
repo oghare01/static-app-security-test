@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines the process of integrating GitHub, Jenkins, and SonarQube to automate code scanning and generate reports for code quality and security vulnerabilities. The Damn Vulnerable Web Application (DVWA) will be our sample application for carrying out this process  
+This document outlines the process of integrating GitHub, Jenkins, and SonarQube to automate code scanning and generate reports for code quality and security vulnerabilities. The Damn Vulnerable Web Application (DVWA) will be our sample application for scanning. 
 
 ## Architecture
 
